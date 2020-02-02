@@ -1,11 +1,31 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+function capitalize(word){
+  return word.toUpperCase()
+}
+function exclaim(mark){
+  return mark + '!'
+}
+function firstCharacter(first){
+  return first[0]
+}
+function lastCharacter(last){
+  return last[last.length-1]
+}
+function oneCharacter(one,x){
+  return one[x]
+}
+function twoCharacters(two,x,y){
+  return two[x]+two[y]
+}
 
-
-
-
-
+function yeller(what){
+  return what.toUpperCase() + '!!!'
+}
+function initials(fullName){
+  return fullName[0] + '.' + fullName[fullName.indexOf(' ')+1] +'.'
+}
 
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
